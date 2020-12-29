@@ -1,0 +1,12 @@
+  
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>AnimaTreat</name>
+  <author>Mistress Mia</author>
+  <packageId>MistressMia.ModsForZoey.BastardTree</packageId>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <description>Decreases the non-buildable area of an anima tree. Why the hell was it so huge Ty, what the heck.</description>
+</ModMetaData>
