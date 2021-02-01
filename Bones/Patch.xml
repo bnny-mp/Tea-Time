@@ -4,7 +4,7 @@
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/Stats[defName="BoneAmount"]</xpath>
     <value>
-      <defaultBaseValue>9.9</defaultBaseValue>
+      <defaultBaseValue>REPLACE THIS</defaultBaseValue>
     </value>
   </Operation>
 </Patch>
