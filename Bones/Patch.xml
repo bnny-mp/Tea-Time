@@ -2,9 +2,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/Stats[defName="BoneAmount"]</xpath>
+    <xpath>/Defs/Stats[defName="BoneAmount"]/defaultBaseValue</xpath>
     <value>
       <defaultBaseValue>REPLACE THIS</defaultBaseValue>
     </value>
   </Operation>
-</Patch>
+  <Operation Class="PatchOperationRemove>
+     <xpath>/Defs/Stats[defName="BoneAmount"]/postProcessCurve</xpath>
+  </Operation>                                         
+  </Patch>
