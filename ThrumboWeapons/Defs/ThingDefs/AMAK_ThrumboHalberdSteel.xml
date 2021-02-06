@@ -31,6 +31,9 @@
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
      </recipeMaker> 
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>1</stackLimit>
