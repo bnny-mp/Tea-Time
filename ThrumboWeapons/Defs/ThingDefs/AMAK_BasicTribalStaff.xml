@@ -2,8 +2,8 @@
 <Defs>
   
  <ThingDef ParentName="BaseMeleeThrumbo">
-    <defName>BasicStaffTribal</defName>
-    <label>Tribal Staff</label>
+    <defName>taffTribal</defName>
+    <label>Tribal Thrumbo Staff</label>
     <description>A staff used by tribal people to enhance psychic abilities. A stick with a rock on it. Can be used as a coat-hanger.</description>
     <graphicData>
       <texPath>Weapons/Amak/Staff_Jade</texPath>
@@ -16,7 +16,7 @@
     </equippedStatOffsets>
     <smeltable>false</smeltable>
     <statBases>
-      <MarketValue>200</MarketValue>
+      <MarketValue>1700</MarketValue>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>6000</WorkToMake>
       <Mass>3</Mass>
@@ -26,6 +26,7 @@
     <costList>
       <Jade>20</Jade>
       <WoodLog>20</WoodLog>
+      <
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="False">
