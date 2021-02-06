@@ -11,7 +11,7 @@
     </graphicData>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <equippedStatOffsets>
-      <PsychicSensitivityOffset>0.33</PsychicSensitivityOffset>
+      <PsychicSensitivityOffset>0.45</PsychicSensitivityOffset>
       <PsychicEntropyRecoveryRate>0.090</PsychicEntropyRecoveryRate>
     </equippedStatOffsets>
     <smeltable>false</smeltable>
@@ -19,14 +19,14 @@
       <MarketValue>1700</MarketValue>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>6000</WorkToMake>
-      <Mass>3</Mass>
+      <Mass>8</Mass>
       <Flammability>0.5</Flammability>
       <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
     <costList>
       <Jade>20</Jade>
       <WoodLog>20</WoodLog>
-      <
+      <ThrumboHorn>2</ThrumboHorn>
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="False">
