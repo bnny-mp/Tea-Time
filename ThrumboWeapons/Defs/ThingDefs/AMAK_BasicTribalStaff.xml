@@ -31,6 +31,9 @@
       <recipeUsers Inherit="False">
       <li>CraftingSpot</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>1</stackLimit>
