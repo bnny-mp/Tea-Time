@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+ <ThingDef ParentName="BaseMeleeThrumbo">
+    <defName>ThrumboKnife</defName>
+    <label>Thrumbo knife</label>
+    <description>A thrumbo horn reduced to a pocketsized murder implement. Carving the horn has resulted in a very mean looking serrated edge. Good for prison breaks, bitch slicing, and spreading butter.</description>
+    <graphicData>
+      <texPath>Weapons/Amak/Thrumbo_Glaive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.01</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1.3</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <costList>
+      <Steel>10</Steel>
+      <ThrumboHorn>1</ThrumboHorn>
+    </costList>
+     <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+       <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+     </recipeMaker> 
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tools>
+        <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <armorPenetration>0.35</armorPenetration>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <armorPenetration>0.13</armorPenetration>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+        <li>
+        <label>blade</label>
+        <capacities>
+          <li>Slice</li>
+        </capacities>
+        <power>15</power>
+        <armorPenetration>0.27</armorPenetration>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>
