@@ -40,14 +40,14 @@
     <stackLimit>1</stackLimit>
     <tools>
       <li>
-        <label>head</label>
+        <label>blade</label>
         <labelUsedInLogging>false</labelUsedInLogging>
         <capacities>
-          <li>Blunt</li>
+          <li>Cut</li>
         </capacities>
-        <power>12</power>
+        <power>28</power>
         <cooldownTime>2.3</cooldownTime>
-        <armorPenetration>0.18</armorPenetration>
+        <armorPenetration>0.42</armorPenetration>
       </li>
     </tools>
   </ThingDef>
