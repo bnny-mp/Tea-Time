@@ -4,7 +4,7 @@
  <ThingDef ParentName="BaseMeleeThrumbo">
     <defName>taffTribal</defName>
     <label>Tribal Thrumbo Staff</label>
-    <description>A staff used by tribal people to enhance psychic abilities. A stick with a rock on it. Can be used as a coat-hanger.</description>
+    <description>A staff used by tribal people to enhance psychic abilities, prized for its thrumbo horn attachment. This one is… probably not for decoration. Useful for expelling hostiles.</description>
     <graphicData>
       <texPath>Weapons/Amak/Staff_Jade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
