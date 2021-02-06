@@ -32,7 +32,7 @@
         <li>FueledSmithy</li>
       </recipeUsers>
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
      </recipeMaker> 
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
