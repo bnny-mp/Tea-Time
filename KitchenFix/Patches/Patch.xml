@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/RecipeDef[defName="MakeMarrowFromBone"]</xpath>
+    <value>
+      <recipeUsers>
+        <li>GL_TableButcher</li>
+       </recipeUsers>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RecipeDef[defName="Make_PemmicanBulk"]</xpath>
+    <value>
+        <recipeUsers>
+          <li>RGK_FueledStove</li>
+          <li>GL_ElectricStove</li>
+          <li>GL_Bonfire</li>
+         </recipeUsers>
+  </value>
+  </Operation>
+</Patch>
