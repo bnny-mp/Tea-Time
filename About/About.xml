@@ -1,0 +1,12 @@
+  
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>TeaTime</name>
+  <author>Mistress Mia</author>
+  <packageId>bunymp.TeaTime</packageId>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <description>Multitude of patches for use with our personal Tea Time Pack. These patches can be used by themselves but are designed for the pack's balance.</description>
+</ModMetaData>
