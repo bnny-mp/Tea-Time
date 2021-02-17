@@ -1,2 +1,58 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    
+  <HediffDef ParentName="InjuryBase">
+    <defName>Slice</defName>
+    <label>rip</label>
+    <labelNoun>a slice wound</labelNoun>
+    <description>A slice.</description>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>permanently shredded wound</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.075</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <destroyedLabel>Shredded</destroyedLabel>
+    </injuryProps>
+  </HediffDef>
+
+  <ToolCapacityDef>
+    <defName>Slice</defName>
+    <label>slice</label>
+  </ToolCapacityDef>
+</Defs>
+  
+  <HediffDef ParentName="InjuryBase">
+    <defName>Rip</defName>
+    <label>rip</label>
+    <labelNoun>a rip wound</labelNoun>
+    <description>A rip.</description>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>permanently shredded wound</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.055</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <destroyedLabel>Shredded</destroyedLabel>
+    </injuryProps>
+  </HediffDef>
+
+  <ToolCapacityDef>
+    <defName>Rip</defName>
+    <label>rip</label>
+  </ToolCapacityDef>
+</Defs>
