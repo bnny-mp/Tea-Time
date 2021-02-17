@@ -55,4 +55,135 @@
     <defName>Rip</defName>
     <label>rip</label>
   </ToolCapacityDef>
+
+<RulePackDef>
+    <defName>Maneuver_Rip</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>damaged_inf->rip</li>
+
+        <li>damaged_past->ripped</li>
+
+        <li>damaged_present->ripping</li>
+        <li>damaged_present(deflected!=True)->tearing</li>
+        
+        <li>destroyed_past->removed</li>
+        <li>destroyed_past->sliced</li>
+        <li>destroyed_past->cut</li>
+
+        <li>destroyed_present->removing</li>
+        <li>destroyed_present->slicing</li>
+        <li>destroyed_present->ripping</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_Rip_MeleeHit</defName>
+    <include>
+      <li>Maneuver_Rip</li>
+      <li>Combat_Hit</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_Rip_MeleeDeflect</defName>
+    <include>
+      <li>Maneuver_Rip</li>
+      <li>Combat_Deflect</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_Rip_MeleeMiss</defName>
+    <include>
+      <li>Maneuver_Rip</li>
+      <li>Combat_Miss</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_Rip_MeleeDodge</defName>
+    <include>
+      <li>Maneuver_Rip</li>
+      <li>Combat_Dodge</li>
+    </include>
+  </RulePackDef>
+    <RulePackDef>
+    <defName>Maneuver_Slice</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>damaged_inf->slice</li>
+
+        <li>damaged_past->sliceded</li>
+
+        <li>damaged_present->slicinging</li>
+        <li>damaged_present(deflected!=True)->slicing</li>
+        
+        <li>destroyed_past->removed</li>
+        <li>destroyed_past->detached</li>
+        <li>destroyed_past->liberated</li>
+
+        <li>destroyed_present->removing</li>
+        <li>destroyed_present->detaching</li>
+        <li>destroyed_present->liberating</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_Slice_MeleeHit</defName>
+    <include>
+      <li>Maneuver_Slice</li>
+      <li>Combat_Hit</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_Slice_MeleeDeflect</defName>
+    <include>
+      <li>Maneuver_Slice</li>
+      <li>Combat_Deflect</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_Slice_MeleeMiss</defName>
+    <include>
+      <li>Maneuver_Slice</li>
+      <li>Combat_Miss</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Maneuver_Slice_MeleeDodge</defName>
+    <include>
+      <li>Maneuver_Slice</li>
+      <li>Combat_Dodge</li>
+    </include>
+  </RulePackDef>
+
+<DamageDef>
+    <defName>Bonk</defName>
+    <label>bonk</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been bonked. They will not be getting up after that.</deathMessage>
+    <hediff>Bonk</hediff>
+    <hediffSkin>Bonk</hediffSkin>
+    <hediffSolid>Bonk</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
+  </DamageDef>
+  <ToolCapacityDef>
+    <defName>Bonk</defName>
+    <label>bonk</label>
+  </ToolCapacityDef>
+  <ManeuverDef>
+    <defName>Bonk</defName>
+    <requiredCapacity>Bonk</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>Bonk</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Bonk_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Bonk_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Bonk_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Bonk_MeleeDodge</combatLogRulesDodge>
+</ManeuverDef>
 </Defs>
