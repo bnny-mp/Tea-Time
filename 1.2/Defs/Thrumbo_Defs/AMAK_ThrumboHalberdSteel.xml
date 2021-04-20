@@ -6,7 +6,7 @@
     <label>Thrumbo Halberd</label>
     <description>A thrumbo horn secured to a large steel staff. Be wary of friendlies when swinging.</description>
     <graphicData>
-      <texPath>Weapons/Amak/Thrumbo_halberd</texPath>
+      <texPath>Weapons/AMAK/Thrumbo_halberd</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>-65</equippedAngleOffset>
