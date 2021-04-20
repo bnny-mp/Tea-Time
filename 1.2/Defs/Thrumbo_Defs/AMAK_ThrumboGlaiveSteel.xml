@@ -6,7 +6,7 @@
     <label>Thrumbo Glaive</label>
     <description>A thrumbo horn secured to a steel staff. A formidable weapon in the hands of a void bunny.</description>
     <graphicData>
-      <texPath>Weapons/Amak/Thrumbo_Glaive</texPath>
+      <texPath>Weapons/AMAK/Thrumbo_Glaive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>-65</equippedAngleOffset>
