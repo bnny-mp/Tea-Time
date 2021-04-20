@@ -6,7 +6,7 @@
     <label>Thrumbo knife</label>
     <description>A thrumbo horn reduced to a pocketsized murder implement. Carving the horn has resulted in a very mean looking serrated edge. Good for prison breaks, bitch slicing, and spreading butter.</description>
     <graphicData>
-      <texPath>Weapons/Amak/Thrumbo_Glaive</texPath>
+      <texPath>Weapons/AMAK/Thrumbo_Knife</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>-65</equippedAngleOffset>
