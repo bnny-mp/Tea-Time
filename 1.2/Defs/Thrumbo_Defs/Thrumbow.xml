@@ -5,7 +5,7 @@
     <label>thrumbow</label>
     <description>A recurve bow enhanced with a pair of thrumbo horns. Not only can you cut someone with it, the arrows boast greater penetration than a normal arrow.</description>
     <graphicData>
-      <texPath>Weapons/Amak/Thrumbo_halberd</texPath>
+      <texPath>Weapons/Amak/Thrumbow-01/texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Bow_Recurve</soundInteract>
@@ -60,7 +60,7 @@
     <defName>Arrow_Thrumbo_Recurve</defName>
     <label>Thrumbo Arrow</label>
     <graphicData>
-      <texPath>Weapons/Amak/Thrumbo_halberd</texPath>
+      <texPath>Weapons/Amak/Thrumbarrow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
